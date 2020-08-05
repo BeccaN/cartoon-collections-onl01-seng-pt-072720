@@ -24,6 +24,7 @@ def find_the_cheese(food)
   sim_cheese = ""
   if food.any?{|x| cheese_types.include?(x)}
     sim_cheese = food.any?{|x| cheese_types.include?(x)}
+    return sim_cheese
   else
     return nil 
   end
