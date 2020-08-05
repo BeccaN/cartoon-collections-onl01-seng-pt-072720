@@ -28,5 +28,5 @@ def find_the_cheese(food)
   else
     return nil 
   end
-  return sim_cheese
+  
 end
